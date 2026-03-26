@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 3000;
 let botState = {
   connected: false,
   lastActivity: Date.now(),
-  reconnectAttempts: 1,
+  reconnectAttempts: 0,
   startTime: Date.now(),
   errors: [],
   wasThrottled: false
